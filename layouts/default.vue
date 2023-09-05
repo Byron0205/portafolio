@@ -1,7 +1,7 @@
 <template>
+    <BaseHeader />
     <div class="flex">
-        <BaseHeader />
-        <div class="flex flex-col justify-between w-full items-center">
+        <div class="pl-16 lg:pl-64 flex h-screen flex-col justify-between w-full items-center">
             <main class="p-4">
                 <slot />
             </main>

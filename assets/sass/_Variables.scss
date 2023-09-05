@@ -1,0 +1,29 @@
+$gris: #F2F2F2;
+$blanco: #fff;
+$letra-gris-claro: #828282;
+$letra-gris-oscuro: #4f4f4f;
+$azul: #2F80ED;
+
+@mixin respond-to($breakpoint) {
+    @if $breakpoint ==tablet {
+        @media (min-width: 768px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == ajuste{
+        @media (min-width: 917px){
+            @content;
+        }
+    }
+    
+    @else if $breakpoint ==desktop {
+        @media (min-width: 968px) {
+            @content;
+        }
+    }
+
+    @else {
+        @error "Breakpoint '#{$breakpoint}' not defined.";
+    }
+}

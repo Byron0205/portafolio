@@ -1,10 +1,7 @@
 <template>
-    <h1 class="text-3xl text-center">Programa con Sosa</h1>
-    <section class="flex flex-col md:flex-row gap-5 mt-4 text-center justify-center content-center items-center">
-        <img src="/img/perfil.jpg" class="w-40" alt="perfil">
-        <p class="text-1xl w-3/6">Bienvenido, mi nombre es Byron Sosa H. <br />
-            Estudie Tecnologías de la Información y me encanta la programación y los retos.</p>
-    </section>
+    <h1 class="text-4xl font-bold mt-5 text-center">Programa con Sosa</h1>
+    
+    <TarjetaPresentacion/>
 
     <section>
         <h2 class="text-2xl text-center mt-4 mb-2">Artículos</h2>

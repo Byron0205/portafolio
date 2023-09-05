@@ -1,5 +1,6 @@
 <template>
-    <div class="flex h-screen flex-col w-[25%] justify-between border-e bg-white">
+    <!-- <div class="flex h-screen flex-col w-[25%] justify-between border-e bg-white"> -->
+    <div class="fixed h-screen w-16 lg:w-64 p-3 border-e bg-white">
         <div class="px-4 py-6">
 
             <ul class="mt-6 space-y-1">
