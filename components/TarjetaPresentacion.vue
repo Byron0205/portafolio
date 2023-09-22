@@ -6,7 +6,7 @@
         <div class="text">
             <div class="title">
                 <p class="name">Byron Sosa Hidalgo</p>
-                <p class="grade">Desarrollador Fullstack</p>
+                <p class="grade">Desarrollador junior</p>
             </div>
             <div class="contact">
                 <p>gabossosa@gmail.com</p>

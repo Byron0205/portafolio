@@ -1,5 +1,5 @@
 <template>
-    <div class="border-[1px] rounded-[12px] p-4">
+    <div class="border-[1px] w-full lg:w-3/6 rounded-[12px] p-4">
         <h2 class="text-3xl font-semibold text-center">Habilidades</h2>
         <div class="flex flex-col gap-4">
             <div>

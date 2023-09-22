@@ -1,5 +1,4 @@
 <template>
-    <h1 class="text-4xl font-bold mt-5 text-center">Programa con Sosa</h1>
     
     <TarjetaPresentacion/>
 
