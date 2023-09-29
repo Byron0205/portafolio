@@ -7,7 +7,7 @@
                 10th Oct 2022
             </time>
 
-            <a :href="`/articles${url}`">
+            <a :href="`/recursos${url}`">
                 <h3 class="mt-0.5 text-md font-medium text-gray-900 text-center">
                     {{ title }}
                 </h3>

@@ -1,5 +1,5 @@
 <template>
-    <div class="w-fit flex-col flex md:flex-row gap-4 justify-center items-center p-4 border-[1px] rounded-[12px] my-6">
+    <div class="w-fit m-auto flex-col flex md:flex-row gap-4 justify-center items-center p-4 border-[1px] rounded-[12px] my-6">
         <div class="w-[200px] md:w-[260px]">
             <img class="rounded-[15px] w-fit" src="/img/perfil.jpg" alt="profile photo">
         </div>
