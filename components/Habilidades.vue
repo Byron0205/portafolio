@@ -1,9 +1,12 @@
 <template>
-    <div class="border-[1px] w-full lg:w-3/6 rounded-[12px] p-4">
-        <h2 class="text-3xl font-semibold text-center">Habilidades</h2>
-        <div class="flex flex-col gap-4">
+    <Container class="w-full">
+        <TitleCard>Habilidades</TitleCard>
+        <div class="flex flex-col gap-4 h-full my-4">
             <div>
-                <p class="text-[18px]">Python</p>
+                <p class="text-[20px] mb-3 text-center">
+                <Icon name="skill-icons:python-light" size="40px"/>
+                    
+                </p>
                 <span id="ProgressLabel" class="sr-only">Loading</span>
                 <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="75"
                     class="block rounded-full bg-gray-200">
@@ -12,7 +15,11 @@
             </div>
             
             <div>
-                JavaScript
+                <p class="text-[20px] my-3 text-center">
+                <Icon name="skill-icons:javascript" size="40px"/>
+                    
+                </p>
+                
                 <span id="ProgressLabel" class="sr-only">Loading</span>
                 <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="75"
                     class="block rounded-full bg-gray-200">
@@ -21,7 +28,10 @@
             </div>
 
             <div>
-                Vue
+                <p class="text-[20px] mb-3 text-center my-3">
+                <Icon name="skill-icons:vuejs-light" size="40px"/>
+
+                </p>
                 <span id="ProgressLabel" class="sr-only">Loading</span>
                 <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="75"
                     class="block rounded-full bg-gray-200">
@@ -30,7 +40,9 @@
             </div>
 
             <div>
-                CSS
+                <p class="text-[20px] mb-3 text-center my-3">
+                <Icon name="skill-icons:css" size="40px"/>
+                </p>
                 <span id="ProgressLabel" class="sr-only">Loading</span>
                 <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="75"
                     class="block rounded-full bg-gray-200">
@@ -39,7 +51,7 @@
             </div>
 
         </div>
-    </div>
+    </Container>
 </template>
 
 <script setup>

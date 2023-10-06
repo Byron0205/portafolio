@@ -17,6 +17,12 @@
                         Recursos
                     </NuxtLink>
                 </li>
+                <li>
+                    <NuxtLink to="/proyectos" active-class="bg-blue-400 text-white"
+                        class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-blue-400 hover:text-white">
+                        Proyectos
+                    </NuxtLink>
+                </li>
 
                 <li>
                     <NuxtLink href="/acercade" active-class="bg-blue-400 text-white"

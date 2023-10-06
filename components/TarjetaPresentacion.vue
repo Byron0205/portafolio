@@ -1,5 +1,5 @@
 <template>
-    <div class="w-fit m-auto flex-col flex md:flex-row gap-4 justify-center items-center p-4 border-[1px] rounded-[12px] my-6">
+    <div class="w-full flex-col flex md:flex-row gap-4 justify-center p-4 items-center border-[1px] rounded-[12px]">
         <div class="w-[200px] md:w-[260px]">
             <img class="rounded-[15px] w-fit" src="/img/perfil.jpg" alt="profile photo">
         </div>
@@ -13,16 +13,14 @@
             </div>
             <div class="flex flex-wrap justify-center gap-2 my-4">
                 <div class="p-2 bg-blue-400 rounded-[12px]">
-                    <Icon name="uil:facebook" color="white" size="30px" />
-                </div>
-                <div class="p-2 bg-blue-400 rounded-[12px]">
-                    <Icon name="uil:instagram" color="white" size="30px" />
+                    <a href="https://www.instagram.com/byron.0205/" target="_blank"><Icon name="uil:instagram" color="white" size="30px" /></a>
                 </div>
                 <div class="p-2 bg-blue-400 rounded-[12px]">
                     <Icon name="uil:youtube" color="white" size="30px" />
                 </div>
                 <div class="p-2 bg-blue-400 rounded-[12px]">
-                    <Icon name="uil:linkedin" color="white" size="30px" />
+                    <a href="https://www.linkedin.com/in/byron-sosa-hidalgo-abb1101b2/" target="_blank">
+                    <Icon name="uil:linkedin" color="white" size="30px" /></a>
                 </div>
                 <div class="p-2 bg-blue-400 rounded-[12px]">
                     <a href="mailto:gabossosa@gmail.com">
