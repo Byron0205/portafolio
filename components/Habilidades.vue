@@ -1,54 +1,38 @@
 <template>
     <Container class="w-full">
         <TitleCard>Habilidades</TitleCard>
-        <div class="flex flex-col gap-4 h-full my-4">
-            <div>
-                <p class="text-[20px] mb-3 text-center">
-                <Icon name="skill-icons:python-light" size="40px"/>
-                    
+        <div class="flex flex-wrap justify-center items-center gap-4 my-3">
+                <p class="text-[20px] text-center" title="python">
+                <Icon name="skill-icons:python-light" size="50px"/>
                 </p>
-                <span id="ProgressLabel" class="sr-only">Loading</span>
-                <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="75"
-                    class="block rounded-full bg-gray-200">
-                    <span class="block h-3 rounded-full bg-blue-600" :style="`width: ${porcentaje}%`"></span>
-                </span>
-            </div>
             
-            <div>
-                <p class="text-[20px] my-3 text-center">
-                <Icon name="skill-icons:javascript" size="40px"/>
-                    
+                <p class="text-[20px] text-center" title="javascript">
+                <Icon name="skill-icons:javascript" size="50px"/>        
+                </p>
+
+                <p class="text-[20px] text-center" title="vue">
+                <Icon name="skill-icons:vuejs-light" size="50px"/>
                 </p>
                 
-                <span id="ProgressLabel" class="sr-only">Loading</span>
-                <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="75"
-                    class="block rounded-full bg-gray-200">
-                    <span class="block h-3 rounded-full bg-yellow-300" :style="`width: ${porcentaje}%`"></span>
-                </span>
-            </div>
-
-            <div>
-                <p class="text-[20px] mb-3 text-center my-3">
-                <Icon name="skill-icons:vuejs-light" size="40px"/>
-
+                <p class="text-[20px] text-center" title="css">
+                <Icon name="skill-icons:css" size="50px"/>
                 </p>
-                <span id="ProgressLabel" class="sr-only">Loading</span>
-                <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="75"
-                    class="block rounded-full bg-gray-200">
-                    <span class="block h-3 rounded-full bg-green-400" :style="`width: ${porcentaje}%`"></span>
-                </span>
-            </div>
-
-            <div>
-                <p class="text-[20px] mb-3 text-center my-3">
-                <Icon name="skill-icons:css" size="40px"/>
+                
+                <p class="text-[20px] text-center" title="fastapi">
+                <Icon name="skill-icons:fastapi" size="50px"/>
                 </p>
-                <span id="ProgressLabel" class="sr-only">Loading</span>
-                <span role="progressbar" aria-labelledby="ProgressLabel" aria-valuenow="75"
-                    class="block rounded-full bg-gray-200">
-                    <span class="block h-3 rounded-full bg-blue-400" :style="`width: ${porcentaje}%`"></span>
-                </span>
-            </div>
+                
+                <p class="text-[20px] text-center" title="MySql">
+                <Icon name="skill-icons:mysql-light" size="50px"/>
+                </p>
+                
+                <p class="text-[20px] text-center" title="SqlServer">
+                <Icon name="devicon-plain:microsoftsqlserver-wordmark" size="50px"/>
+                </p>
+                
+                <p class="text-[20px] text-center" title="Git">
+                <Icon name="skill-icons:git" size="50px"/>
+                </p>
 
         </div>
     </Container>
